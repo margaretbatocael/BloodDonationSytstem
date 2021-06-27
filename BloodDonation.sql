@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS hospital(
 	PRIMARY KEY (hosp_name_abbrev)
 	);
 
-CREATE TABLE IF NOT EXISTS requests(
+CREATE TABLE IF NOT EXISTS blood_request(
 	blood_id VARCHAR(7) NOT NULL,
 	hosp_name_abbrev VARCHAR(10) NOT NULL,
 	blood_type VARCHAR(15) NOT NULL,
