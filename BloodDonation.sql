@@ -1,7 +1,7 @@
 -- DROP TABLE IF EXISTS donor;
 -- DROP TABLE IF EXISTS blood;
 -- DROP TABLE IF EXISTS hospital;
--- DROP TABLE IF EXISTS requests;
+-- DROP TABLE IF EXISTS blood_request;
 
 CREATE TABLE IF NOT EXISTS donor(
 	donor_id VARCHAR(6) UNIQUE,
